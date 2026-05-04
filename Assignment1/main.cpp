@@ -111,7 +111,7 @@ int main()
 	* Also note that this requires C++17, so go to Project Properties, C/C++, Language, and select C++17
 	*/
 	std::string parentDir = (fs::current_path().fs::path::parent_path()).string();
-	std::string texPath = "/pyramid/Resources/";
+	std::string texPath = "/Assignment1/";
 
 	// Texture
 	std::cout << parentDir + texPath + "brick.png" << std::endl;
